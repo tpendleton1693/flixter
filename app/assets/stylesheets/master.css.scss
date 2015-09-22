@@ -12,3 +12,40 @@ nav.navbar-inverse {
   color:white;
 }
 
+.hero {
+  background:url('hero.jpg');
+  background: url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:80vh;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, nav.navbar-inverse {
+  margin:0;
+}
+
+.frosty {
+  background:rgba(0,0,0,.5);
+  color:white;
+}
+
+.frosty h1 {
+  font-family: "Helvetica Neue", helvetica;
+  font-weight: 100;
+  text-shadow:rgba(0,0,0,.75) 2px 2px;
+}
+
+.frosty h2 {
+  font-weight: 200;
+  font-family: "Helvetica Neue", helvetica;
+  text-shadow:rgba(0,0,0,.75) 2px 2px;
+}
+
+.btn.btn-success {
+  border-radius:0;
+}
+
+
