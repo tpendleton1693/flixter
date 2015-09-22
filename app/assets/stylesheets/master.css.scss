@@ -1,8 +1,9 @@
-.navbar.navbar {
-    border-radius:0;
-    font-family: "Helvetica Neue", Helvetica;
-    font-weight: 200;
-    box-shadow: 0px, 1px, 3px, rgba(0,0,0,.4);
+nav.navbar-inverse {
+  box-shadow: 0px 2px 3px rgba(0,0,0,.4);
+  border-radius:0;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  background:url('blackorchid.png');
 }
 
 .navbar-inverse a.navbar-brand {
