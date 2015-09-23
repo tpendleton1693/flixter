@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # bootstrap
 gem 'bootstrap-sass', '~> 3.3.5'
+# simple_form
+gem 'simple_form'
 
 # simpleform
 gem 'simple_form'
