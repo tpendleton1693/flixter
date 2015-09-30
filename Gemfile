@@ -27,11 +27,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.5'
 # simple_form
 gem 'simple_form'
-
-# simpleform
-gem 'simple_form'
 # devise
 gem 'devise'
+# carrierwave
+gem 'carrierwave'
+# figaro
+gem 'figaro'
+# fog
+gem 'fog'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
