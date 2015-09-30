@@ -33,8 +33,8 @@ gem 'devise'
 gem 'carrierwave'
 # figaro
 gem 'figaro'
-# fog
-gem 'fog'
+# carrierwave-aws 
+gem 'carrierwave-aws'
 # mini-magick
 gem 'mini_magick'
 
