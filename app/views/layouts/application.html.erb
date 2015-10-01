@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Flixter</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <div id='wrap'>
-    <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-	<%= link_to "Flixter", root_path, class: 'navbar-brand' %>
-      </div>
-      <div class = "collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	<ul class = "nav navbar-nav">
-	  <li><%= link_to 'See All Courses', courses_path %></li>
-	</ul>
-	<ul class = "nav navbar-nav navbar-right">
-	  <% if user_signed_in? %>
-	    <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete  %></li>
-	  <% else %>
-	    <li><%= link_to 'Sign In', new_user_session_path %></li>
-	    <li><%= link_to 'Sign Up', new_user_registration_path %></li>
-	  <% end %>
-	</ul>
-      </div>
-    </nav>
+  <head>
+    <title>Flixter</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <link href="http://vjs.zencdn.net/5.0.0/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/5.0.0/video.js"></script>
+  </head>
+  <body>
+    <div id='wrap'>
+      <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+	<div class="navbar-header">
+	  <%= link_to "Flixter", root_path, class: 'navbar-brand' %>
+	</div>
+	<div class = "collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	  <ul class = "nav navbar-nav">
+	    <li><%= link_to 'See All Courses', courses_path %></li>
+	  </ul>
+	  <ul class = "nav navbar-nav navbar-right">
+	    <% if user_signed_in? %>
+	      <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete  %></li>
+	    <% else %>
+	      <li><%= link_to 'Sign In', new_user_session_path %></li>
+	      <li><%= link_to 'Sign Up', new_user_registration_path %></li>
+	    <% end %>
+	  </ul>
+	</div>
+	</nav>
 
     <% if notice.present? %>
       <p id = 'notification' class = "alert alert-info"><%= notice %></p>
