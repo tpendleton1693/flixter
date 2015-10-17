@@ -1,0 +1,14 @@
+@import 'values';
+
+.hero {
+  background:url('hero.jpg');
+  background: url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:80vh;
+  box-shadow: $hero-shadow;
+  -moz-box-shadow: $hero-shadow;
+  -webkit-box-shadow: $hero-shadow;
+}

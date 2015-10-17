@@ -1,0 +1,10 @@
+@import 'values';
+
+.field input {
+  width: 300px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,.3);
+  -moz-box-shadow: $input-shadow;
+  -webkit-box-shadow: $input-shadow;
+  box-shadow: $input-shadow;
+}

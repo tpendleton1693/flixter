@@ -1,0 +1,39 @@
+@import 'values';
+
+ul {
+  list-style-type: none;
+  .header {
+    font-size: 20px;
+    
+    .glyphicon {
+      font-size: 20px;
+    }
+  }
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: $border-color;
+  padding: 20px;
+  margin: 20px;
+}
+
+.lessons li {
+  background: black;
+  color: white;
+  margin: 10px;
+  font-family: $helvetica;
+  font-weight: 100;
+  font-size: 15px;
+  padding: 8px;
+
+  b {
+    font-size: 25px;
+    font-weight: 100;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
