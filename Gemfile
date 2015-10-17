@@ -40,6 +40,8 @@ gem 'carrierwave-aws'
 gem 'mini_magick'
 # stripe
 gem 'stripe'
+# ranked-model
+gem 'ranked-model'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
