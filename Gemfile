@@ -42,6 +42,8 @@ gem 'mini_magick'
 gem 'stripe'
 # ranked-model
 gem 'ranked-model'
+# jquery ui
+gem 'jquery-ui-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
